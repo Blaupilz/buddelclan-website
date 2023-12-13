@@ -31,6 +31,5 @@
     transform: scale(0.95);
     background-color: #367b39;
     color: white;
-    transform: translate(3px, 3px);
     box-shadow: 2px 4px 5px 1px rgba(25,25,25,0.55);
 }
