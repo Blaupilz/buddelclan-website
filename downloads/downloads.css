@@ -1,0 +1,119 @@
+.banner-container {
+    background-image: url(../images/banner1.png);
+}
+
+
+
+
+.container {
+    text-align: center;
+}
+
+.texturepack1 {
+    color: white;
+    text-align: center;
+}
+
+.texturepack2 {
+    color: white;
+    text-align: center;
+}
+
+.schriftzug1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.schriftzug2 {
+    font-size: 20px;
+}
+
+.schriftzug3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.schriftzug4 {
+    font-size: 20px;
+}
+
+.schriftzug5 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.download-button {
+    display: flex;
+    text-align: center;
+    display: block;
+    background: #00A9D4;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 320px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 2px 4px 6px 5px rgba(25,25,25,0.55);
+    transition: 0.2s ease-in-out;
+}
+
+.download-button:hover {
+    background: #00729D;
+    transform: translate(3px, 3px);
+    box-shadow: 2px 4px 5px 1px rgba(25,25,25,0.55);
+    color:#00bbff
+
+}
+
+.blockbench {
+    width: 80px;
+    height: auto;
+    text-align: right;
+}
+
+.blockbench-position {
+    text-align: center;
+}
+
+hr {
+    color: white;
+    font-weight: bold;
+}
+
+.mitglieder {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    background-color: #f00;
+}
+
+.clanmitglieder {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.mcnamen {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Clanlogo {
+    height: 150px;
+    width: auto;
+    border-radius: 75px;
+    text-align: right;
+}
+
+.Logo-container {
+    display: block;
+    background-color: #f00;
+    margin-right: 1255px;
+    margin-left: 500px;
+}
+    

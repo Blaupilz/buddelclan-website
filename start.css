@@ -1,0 +1,36 @@
+.banner-container {
+    background-image: url(images/banner_start.png);
+}
+
+.link-container {
+    justify-content: center;
+    display: flex;
+    margin-top: 48px;
+}
+
+.link-button {
+    padding: 8px 40px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    width: 5cm;
+    height: 1cm;
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+.link-button:hover {
+    transform: scale(0.95);
+    background-color: #367b39;
+    color: white;
+    transform: translate(3px, 3px);
+    box-shadow: 2px 4px 5px 1px rgba(25,25,25,0.55);
+}
