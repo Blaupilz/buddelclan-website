@@ -24,11 +24,15 @@
     background-color: red;
     /* padding-top: 85px; */
     height: 100px;
+    margin-top: 80px;
 }
 
 .start-theme-image {
     height: 100%;
     width: 25%;
     border-radius: 20px;
+    background-image: url(images/Nether.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
