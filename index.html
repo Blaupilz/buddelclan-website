@@ -8,25 +8,44 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
     <link rel="stylesheet" type="text/css" href="start.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body class="dark-theme">
-    <div class="banner-container">
-        <h1 class="title">BuddelClan</h1>
-    </div>
-    <div class="link-container">
-        <a href="downloads/index.html" class="link-button">Download Texturepacks</a>
-    </div>
-    <br>
-    <a href="downloads/index.html" class="link-button">Download Scematics</a>
-    <br>
-    <a href="downloads/index.html" class="link-button">Infos zum Clan</a>
+        <div class="main-start">
+            <div class="navbar">
+                <a href="index.html" class="navbar-clanlogo"><img src="images/ClanLogo.png"></a>
+                <a href="index.html" class="navbar-text">BuddelClan</a>
+            </div>
+            <div class="banner-container-start">
+                <div class="navbar-secondary">
+                    <a href="scemetics/index.html" class="main-navbar-secondary-linkbutton">Download Scematics</a>
+                    <a href="downloads/index.html" class="main-navbar-secondary-linkbutton">Download Textturepacks</a>
+                    <a href="info/index.html" class="main-navbar-secondary-linkbutton">Infos zum Clan</a>
+                    <a href="" class="main-navbar-secondary-linkbutton">Aktuelle Projekte</a>
+                </div>
+                <!-- <img src="images/TradinghallNacht.png" alt="Banner" class="banner active">
+                <img src="images/TradinghallTag.png" alt="Banner" class="banner"> -->
+                <h1 class="headline">BuddelClan</h1>
+            </div>
+        </div>
+        <div class="start-projects-box">
+            <img src="images/Nether.jpeg" class="start-theme-image">
+            <img src="images/Nether.jpeg" class="start-theme-image">
+            <img src="images/Nether.jpeg" class="start-theme-image">
+        </div>
+    <!-- <script>
+        const banners = document.querySelectorAll('.banner');
+        let currentBanner = 0;
 
-    <!-- <div class="link-container">  
-        </div> -->
+        function switchBanner() {
+            banners[currentBanner].classList.remove('active');
+            currentBanner = (currentBanner + 1) % banners.length;
+            banners[currentBanner].classList.add('active');
+        }
+
+        setInterval(switchBanner, 20000);
+    </script> -->
+
 </body>
 
 </html>

@@ -1,4 +1,53 @@
 .banner-container {
-    background-image: url(../images/banner1.png);
+    background-image: url(../images/Dungeon_Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
+.stuff1 {
+    width: 512px;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    left: 100px;
+    /* background-color: red; */
+    margin: left;
+    color: white;
+    font-size: 20px;
+} 
+
+.stuff2 {
+    width: 512px;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    right: 100px;
+    /* background-color: green; */
+    margin: right;
+    color: white;
+    font-size: 20px;
+} 
+
+.stuff-image {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+    margin: center;
+    padding: 200px;
+}
+
+.stuff-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-text {
+    margin: auto;
+    max-width: 70%;
+    color:white;
+    font-size: 22px;
+}
+
+.info-text-bold {
+    font-weight: bold;
+}

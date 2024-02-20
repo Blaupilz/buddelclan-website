@@ -1,5 +1,15 @@
-.banner-container {
-    background-image: url(images/banner_start.png);
+
+.banner-container-start {
+    background-image: url(images/TradinghallTag.png);
+    width: 100%;
+    height: calc(var(--header-height) - var(--navbar-height));
+    background-size: cover;
+
+}
+
+.main-start {
+    height: var(--header-height);
+    width: 100%;
 }
 
 .link-container {
@@ -8,28 +18,17 @@
     margin-top: 48px;
 }
 
-.link-button {
-    padding: 8px 40px;
-    background-color: #4caf50;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    display: block;
-    width: 200px;
-    height: 1cm;
-    text-align: center;
-    margin: 20px auto;
-    text-transform: uppercase;
-    transition: 0.2s ease-in-out;
-    cursor: pointer;
-    z-index: 2;
-    position: relative;
+.start-projects-box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    /* padding-top: 85px; */
+    height: 100px;
 }
 
-.link-button:hover {
-    transform: scale(0.95);
-    background-color: #367b39;
-    color: white;
-    box-shadow: 2px 4px 5px 1px rgba(25,25,25,0.55);
+.start-theme-image {
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
 }
+
