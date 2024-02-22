@@ -21,18 +21,61 @@
 .start-projects-box {
     display: flex;
     justify-content: space-evenly;
-    background-color: red;
-    /* padding-top: 85px; */
+    /*background-color: red;*/
     height: 100px;
     margin-top: 80px;
 }
 
-.start-theme-image {
+.start-theme-image1 {
+    display: flex;
     height: 100%;
     width: 25%;
     border-radius: 20px;
     background-image: url(images/Nether.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-size: 26px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dangrek', sans-serif;
 }
 
+.start-theme-image2 {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    background-image: url(images/Nether.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-size: 26px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dangrek', sans-serif;
+}
+
+.start-theme-image3 {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    background-image: url(images/Nether.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-size: 26px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dangrek', sans-serif;
+}
