@@ -1,10 +1,9 @@
 
 .banner-container-start {
-    background-image: url(images/TradinghallTag.png);
+    background-image: url(images/TradinghallNacht.png);
     width: 100%;
     height: calc(var(--header-height) - var(--navbar-height));
     background-size: cover;
-
 }
 
 .main-start {
@@ -21,7 +20,7 @@
 .start-projects-box {
     display: flex;
     justify-content: space-evenly;
-    height: 100px;
+    height: 120px;
     margin-top: 80px;
 }
 
@@ -122,5 +121,6 @@
 
 .netherite-counter-text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
